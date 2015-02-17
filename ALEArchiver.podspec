@@ -12,7 +12,7 @@ s.summary          = "A component which simplifies the process of archiving any 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'ALEArchiver'
+  s.source_files = 'ALEArchiver/ALEArchiver'
   s.resource_bundles = {
     'ALEArchiver' => ['Pod/Assets/*.png']
   }

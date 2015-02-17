@@ -14,6 +14,8 @@
 		60CA9FBC1A9397DD000405BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CA9FBB1A9397DD000405BF /* Images.xcassets */; };
 		60CA9FBF1A9397DD000405BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CA9FBD1A9397DD000405BF /* LaunchScreen.xib */; };
 		60CA9FCB1A9397DD000405BF /* ALEArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA9FCA1A9397DD000405BF /* ALEArchiverTests.m */; };
+		60CA9FD71A939810000405BF /* ALEArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA9FD61A939810000405BF /* ALEArchiver.m */; };
+		60CA9FD91A939830000405BF /* ALEArchiver.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 60CA9FD81A939830000405BF /* ALEArchiver.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		60CA9FC41A9397DD000405BF /* ALEArchiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALEArchiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CA9FC91A9397DD000405BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CA9FCA1A9397DD000405BF /* ALEArchiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALEArchiverTests.m; sourceTree = "<group>"; };
+		60CA9FD51A939810000405BF /* ALEArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEArchiver.h; sourceTree = "<group>"; };
+		60CA9FD61A939810000405BF /* ALEArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEArchiver.m; sourceTree = "<group>"; };
+		60CA9FD81A939830000405BF /* ALEArchiver.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALEArchiver.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		60CA9FA21A9397DD000405BF = {
 			isa = PBXGroup;
 			children = (
+				60CA9FD81A939830000405BF /* ALEArchiver.podspec */,
 				60CA9FAD1A9397DD000405BF /* ALEArchiver */,
 				60CA9FC71A9397DD000405BF /* ALEArchiverTests */,
 				60CA9FAC1A9397DD000405BF /* Products */,
@@ -81,6 +87,7 @@
 		60CA9FAD1A9397DD000405BF /* ALEArchiver */ = {
 			isa = PBXGroup;
 			children = (
+				60CA9FD41A9397FA000405BF /* ALEArchiver */,
 				60CA9FB21A9397DD000405BF /* AppDelegate.h */,
 				60CA9FB31A9397DD000405BF /* AppDelegate.m */,
 				60CA9FB51A9397DD000405BF /* ViewController.h */,
@@ -117,6 +124,15 @@
 				60CA9FC91A9397DD000405BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60CA9FD41A9397FA000405BF /* ALEArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				60CA9FD51A939810000405BF /* ALEArchiver.h */,
+				60CA9FD61A939810000405BF /* ALEArchiver.m */,
+			);
+			path = ALEArchiver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60CA9FBA1A9397DD000405BF /* Main.storyboard in Resources */,
+				60CA9FD91A939830000405BF /* ALEArchiver.podspec in Resources */,
 				60CA9FBF1A9397DD000405BF /* LaunchScreen.xib in Resources */,
 				60CA9FBC1A9397DD000405BF /* Images.xcassets in Resources */,
 			);
@@ -221,6 +238,7 @@
 			files = (
 				60CA9FB71A9397DD000405BF /* ViewController.m in Sources */,
 				60CA9FB41A9397DD000405BF /* AppDelegate.m in Sources */,
+				60CA9FD71A939810000405BF /* ALEArchiver.m in Sources */,
 				60CA9FB11A9397DD000405BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

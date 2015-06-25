@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60119B611B3BF9CD008CA6E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60119B601B3BF9CD008CA6E3 /* README.md */; };
 		60CA9FB11A9397DD000405BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA9FB01A9397DD000405BF /* main.m */; };
 		60CA9FB41A9397DD000405BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA9FB31A9397DD000405BF /* AppDelegate.m */; };
 		60CA9FB71A9397DD000405BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA9FB61A9397DD000405BF /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60119B601B3BF9CD008CA6E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60CA9FAB1A9397DD000405BF /* ALEArchiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALEArchiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CA9FAF1A9397DD000405BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CA9FB01A9397DD000405BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				60CA9FD81A939830000405BF /* ALEArchiver.podspec */,
+				60119B601B3BF9CD008CA6E3 /* README.md */,
 				60CA9FDA1A939B83000405BF /* LICENSE */,
 				60CA9FAD1A9397DD000405BF /* ALEArchiver */,
 				60CA9FC71A9397DD000405BF /* ALEArchiverTests */,
@@ -242,6 +245,7 @@
 			files = (
 				60CA9FB71A9397DD000405BF /* ViewController.m in Sources */,
 				60CA9FB41A9397DD000405BF /* AppDelegate.m in Sources */,
+				60119B611B3BF9CD008CA6E3 /* README.md in Sources */,
 				60CA9FD71A939810000405BF /* ALEArchiver.m in Sources */,
 				60CA9FB11A9397DD000405BF /* main.m in Sources */,
 			);
@@ -434,6 +438,7 @@
 				60CA9FD01A9397DD000405BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60CA9FD11A9397DD000405BF /* Build configuration list for PBXNativeTarget "ALEArchiverTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +447,7 @@
 				60CA9FD31A9397DD000405BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

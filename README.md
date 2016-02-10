@@ -34,6 +34,6 @@ See the ALEArchiver.h for full documentation and custom options.
                                  error:&error];
 
 # Installation
-With cocoa pods:
+With CocoaPods:
 
        pod 'ALEArchiver', '~> 0.1.0' 
